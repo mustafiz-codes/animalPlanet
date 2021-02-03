@@ -27,10 +27,27 @@ a {
 .primary-button {
   background-color: #ffb548;
 }
+.standard-button {
+  border-radius: 15px;
+  margin: 20px 0;
+}
+
+.section {
+  margin: 50px 0;
+}
+.section-header {
+  font-size: 48px;
+  color: #0b0837;
+  margin: 20px 0;
+}
+
+/* nav */
 
 .nav-item .nav-link {
   color: black !important;
 }
+
+/* header */
 .header {
   background-image: url("../images/header-bg.png");
   background-color: #f5ffff;
@@ -39,9 +56,6 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-.header-section {
-  margin: 100px 0;
 }
 .header-section-description h2 {
   padding-top: 20px;
@@ -63,4 +77,33 @@ a {
   padding: 10px;
   border: 1px solid white;
   border-radius: 20px;
+}
+
+/* about */
+.about-img img {
+  width: 100%;
+}
+.about-content {
+  padding-top: 100px;
+}
+.about-content p {
+  padding: 20px 0;
+}
+
+/* why us */
+
+.why-us-card {
+  background-color: #044f61;
+  color: white;
+  padding: 10%;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+.why-us-card h4 {
+  font-size: 24px;
+}
+.why-us-card p {
+  margin: 20px 0 0;
+  font-size: 16px;
+  color: #e3e3e3;
 }
