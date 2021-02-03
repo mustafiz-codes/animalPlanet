@@ -26,6 +26,8 @@ a {
 }
 .primary-button {
   background-color: #ffb548;
+  color: #000000;
+  font-weight: 600;
 }
 .standard-button {
   border-radius: 15px;
@@ -33,7 +35,7 @@ a {
 }
 
 .section {
-  margin: 50px 0;
+  padding: 10vh 0;
 }
 .section-header {
   font-size: 48px;
@@ -45,10 +47,11 @@ a {
 
 .nav-item .nav-link {
   color: black !important;
+  font-weight: 600;
 }
 
 /* header */
-.header {
+.index-header {
   background-image: url("../images/header-bg.png");
   background-color: #f5ffff;
   height: 100vh;
@@ -57,9 +60,15 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.header-section-description{
+  padding-bottom: 30px;
+}
+
 .header-section-description h2 {
   padding-top: 20px;
-  font-size: 72px;
+  font-size: 68px;
+  font-weight: 600;
 }
 .header-section-description p {
   margin: 20px 0;
@@ -80,6 +89,9 @@ a {
 }
 
 /* about */
+.about-section{
+  margin: 20px 0;
+}
 .about-img img {
   width: 100%;
 }
@@ -91,6 +103,9 @@ a {
 }
 
 /* why us */
+.why-us-section{
+  background-color: #f5ffff;
+}
 
 .why-us-card {
   background-color: #044f61;
@@ -106,4 +121,115 @@ a {
   margin: 20px 0 0;
   font-size: 16px;
   color: #e3e3e3;
+}
+
+/* need help */
+.need-help-section{
+  /* background-color: #f5ffff; */
+  text-align: center;
+}
+
+.need-help-card {
+  border: 2px solid #044f61;
+  background-color: #f5ffff;
+  padding: 10%;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+.need-help-card h4 {
+  font-size: 24px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+}
+.need-help-card p {
+  margin: 20px 0;
+  font-size: 16px;
+  color: #252525;
+}
+.need-help-button{
+  color: rgb(0, 0, 0);
+  /* background-color: #044f61; */
+  background-color: #ffb548;
+  
+}
+
+/* footer */
+.footer-section{
+  background-color: #044f61;
+  color: #ffb548;
+}
+.footer-section ul{
+  list-style-type: none;
+}
+.footer-section ul li{
+  margin: 10px 0;
+}
+
+/* title section */
+.title-section{
+  text-align: center;
+  background-color: #044f61;
+  padding: 5vh 0;
+  color: #ffffff;
+}
+
+/* all doctors */
+.doctor-card{
+  text-align: center;
+  height: 400px;
+  margin: 20px 0;
+}
+.doc-name{
+  text-align: center;
+}
+.doc-img img{
+  width: 50%;
+  padding: 20px;
+  /* height: 430px; */
+}
+.doc-description{
+  padding: 10px 0;
+}
+
+/* all question */
+
+.question-query{
+  padding: 20px 0;
+}
+
+.ask-question, .find-question{
+  margin-bottom: 10px ;
+}
+
+.single-question{
+  padding: 20px;
+  background-color: #f5ffff;
+  border: 1px solid #044f61;
+  border-radius: 5px;
+  margin: 20px 0; 
+  text-align: left;
+}
+.single-question a{
+  text-decoration: none;
+}
+
+.single-question-title h4{
+  color: #044f61;
+  font-weight: 600;
+}
+
+.single-question-body p{
+  color: #a8a7a7;
+}
+.single-question-tags{
+  display: flex;
+  justify-content: start;
+}
+.single-tag{
+  background-color:#044f61;
+  color: white;
+  width: auto;
+  margin: 0 20px 0 0;
+  padding: 2px 10px;
+  border-radius: 5px;
 }
